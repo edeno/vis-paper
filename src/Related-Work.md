@@ -1,4 +1,4 @@
-# Related Work
+## Related Work
 There have been previous attempts to make web-enabled dynamic, interactive visualizations in neuroscience. Here we describe several notable visualizations.
 
 The [pycortex webGL MRI viewer](http://gallantlab.org/semanticmovies/) is a web-enabled interactive visualization tool that displays the results from @huth_continuous_2012. In the study, Huth and colleagues had subjects view two hours of movie trailers. They then categorized objects and actions in the movies, regressed the categories on the BOLD fMRI signals collected on the subjects watching the movies, and performed a principal components dimensionality reduction to recover a "semantic space". The visualization displays a single subject's color-coded 3D cortical surface representation of this semantic space where similar colors indicate similar categorical representations. The visualization also displays a map of the semantic space itself.
