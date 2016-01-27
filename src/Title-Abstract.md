@@ -2,6 +2,8 @@
 title: New tools for web-enabled interactive visualizations of electrophysiological data
 author:
   - '\normalsize Eric L. Denovellis'
+  - '\normalsize Emily P. Stephen'
+  - '\normalsize Daniel H. Bullock'
 bibliography: src/vis-paper.json
 csl: src/frontiers-in-neuroinformatics.csl
 link-citations: true
