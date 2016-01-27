@@ -1,7 +1,6 @@
 #!/bin/sh
 # Compiles the paper to pdf
-pandoc src/Title.md \
-       src/Abstract.md \
+pandoc src/Title-Abstract.md \
        src/Keywords.md \
        src/Introduction.md \
        src/Related-Work.md \
