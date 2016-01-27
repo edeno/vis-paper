@@ -9,7 +9,6 @@ pandoc src/Title-Abstract.md \
        src/Discussion.md \
        src/References.md \
        -o public/edenovellis-vis-paper.pdf \
-       -V geometry:margin=0.5in \
-       -V fontsize=12pt \
-       --filter pandoc-crossref \
+       --filter pandoc-fignos \
+       --filter pandoc-citeproc \
        --smart
