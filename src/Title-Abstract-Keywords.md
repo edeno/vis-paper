@@ -10,6 +10,7 @@ link-citations: true
 linkcolor: red
 fontsize: 12pt
 mainfont: 'Times New Roman'
+keywords: ["Visualization", "Neurophysiology", "Open Source", "Interactive", "Web-enabled", "Electrophysiology", "Generalized Linear Models"]
 <!-- header-includes:
     - \usepackage{lineno}
     - \linenumbers -->
