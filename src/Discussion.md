@@ -13,7 +13,7 @@ As data formats for sharing electrophysiology are standardized, we would like to
 
 We would also like to provide additional "plugin" layout options for `SpectraVis`, `GLMVis`, and `RasterVis`. In particular, there are numerous open source network layouts such as [Group-in-a-box layouts](https://github.com/john-guerra/forceInABox), which clusters nodes according to group membership, and [edge bundling layouts](https://github.com/upphiminn/d3.ForceBundle), which group similar edges together --- all with the goal with improving understanding of the network structure. Likewise, with `GLMVis`, alternative views of the GLMs such as scatter plot matrices (SPLOMs) and  dimensionality reduction algorithms such as t-Distributed Stochastic Neighbor Embedding (t-SNE) [@vandermaaten_visualizing_2008] could help identify multivariate patterns in the data.
 
-Finally, we would like to add more visualizations to the toolbox. Laminar electrodes, which have contacts spaced along the shank of the electrode and provide cortical layer information, pose an interesting challenge in terms of incorporating the extra dimension of depth information.
+Finally, we would like to add more visualizations to the toolbox. Laminar electrodes, which have contacts spaced along the shank of the electrode and provide cortical layer information, pose an interesting challenge in terms of incorporating the extra dimension of depth information. As more studies incorporate laminar electrodes, finding effective visualizations and filtering  of networks between different cortical layers, with the many possible associations between the layers, could be another good use case for interactive visualizations.
 
 #### Data Sharing
 
