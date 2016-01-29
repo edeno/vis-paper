@@ -1,7 +1,7 @@
 ## Materials and Methods
 
 ### Design
-A set of tools is only as useful as the number of people that can use them. We decided that each visualization should adhere to a set of design principles to make them maximally useful to both the users of the visualizations and developers of visualizations based on our toolkit. To that end, our approach is to create interactive visualizations that are:
+A set of tools is only as useful as the number of people that can use them. We decided that each visualization should adhere to a set of design principles to make them maximally useful to both the users of the visualizations and developers of visualizations based on our toolkit [@sherif_brainbrowser_2015]. To that end, our approach is to create interactive visualizations that are:
 
 1. **Shareable** --- so others can easily view the visualizations online or in print.
 2. **Modular** --- so the visualizations can be used independently or linked together to provide an integrated view of an electrophysiological dataset.
