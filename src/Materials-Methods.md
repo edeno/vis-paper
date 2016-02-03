@@ -9,7 +9,7 @@ A set of tools is only as useful as the number of people that can use them. We d
 4. **Configurable** --- so visualizations can dynamically display different datasets or be preset to a particular view state.
 
 #### Shareable
-To make the visualizations shareable, the visualizations were written with modern web technologies --- HTML, CSS, and Javascript. They can be deployed via a local or remotely hosted webserver and viewed with any modern browsers (Firefox 4+, Chrome 4+, Safari 4+, Opera 9.5+ and IE9+). As a result, the visualizations require no specialized software (beyond a browser) to view.
+To make the visualizations shareable, the visualizations were written with modern web technologies --- HTML, CSS, and Javascript. They can be deployed via a local or remotely hosted web server and viewed with any modern browsers (Firefox 4+, Chrome 4+, Safari 4+, Opera 9.5+ and IE9+). As a result, the visualizations require no specialized software (beyond a browser) to view.
 
 Users can share a particular state of the visualization using permanent links (permalinks) --- each visualization has a button which provides the URL containing the parameters necessary to generate the current view. For example, with `SpectraVis`, if you wanted to share a snapshot of the correlation network at a specific time (e.g. 100 ms after stimulus onset), clicking on the link button would provide a URL that could then be shared with colleagues.
 
