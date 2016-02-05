@@ -1,6 +1,8 @@
 ## Discussion
 We developed a novel interactive visualization toolkit for investigating electrophysiological data. This toolkit allows users to quickly explore raw data via `RasterVis` and intermediate analysis such as receptive fields and networks via `GLMVis` and `SpectraVis`. We believe these tools will be important going forward as electrode technology progresses and scientists form more complicated hypotheses.
 
+#### Related Work
+
 #### Importance of Visualization for Open Neuroscience
 Online interactive visualization tools such as ours may provide a way for quick exploration of datasets online --- enabling users to understand the datasets before performing more in-depth analyses. Indeed, the Allen Brain Institute --- which shares massive neuroscience datasets online --- makes extensive use of online visualizations to enable users to find the appropriate datasets. Because our tools encompass many common types of analysis for electrophysiological data, we hope our tools and future extensions can be used in a similar manner.
 
