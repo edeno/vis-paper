@@ -18,7 +18,7 @@ The second strategy to make edges more visible allows the user to isolate subset
 
 Once the desired network view has been obtained, users can get further detail by clicking on a pair of sensors. This loads a sensor view (@fig:SpectraVis, dotted box) which depicts the relationship (spectra and coherences) between a selected pair of sensors (circled in black, network view, sensors 85 and 90) at all times and frequencies. Here, the edge between M1 (sensor 90) and S1 (sensor 85) represents a 10 Hz increase in speech coherence relative to silence. The increase co-occurs with higher frequency beta (15-25Hz) power suppression on the M1 sensor. The user can investigate the relationship between the sensor pair and the network view by mousing over a time-frequency bin in the sensor view, which correspondingly updates the network view to the time-frequency bin under the cursor.
 
-<--! Conclusion paragraph -->
+<!-- Conclusion paragraph -->
 
 ![A static screenshot of the `SpectraVis` interface with the ECOG overt reading data.](figures/SpectraVis.png){#fig:SpectraVis width=100%}
 
@@ -33,7 +33,7 @@ For example, `RasterVis` allows for dynamic alignment of spike times and "on-the
 
 Finally, `RasterVis` allows users to find and select neurons by subject, recording session, or name. This is useful for fast comparison between neurons, linking to other visualizations (other visualizations can directly link to a specific neuron by name via a parameter passed via the URL), and general exploratory analysis of the dataset.
 
-<--! Conclusion paragraph -->
+<!-- Conclusion paragraph -->
 
 ![A static screenshot of the `RasterVis` interface.](figures/RasterVis.png){#fig:RasterVis width=100%}
 
@@ -44,8 +44,8 @@ One consequence of being able to estimate many covariates simultaneously is that
 
 Therefore, we built `GLMVis`, an interactive visualization for GLMs, that: (1) shows the relationship between the multiple dimensions of the model fit over time, (2) allows filtering of neurons by effect size, brain area, and experimental subject, and (3) can be used to compare estimates from different models. To show the relationship between multiple dimensions, we use parallel coordinate plots [@inselberg_plane_1985; @wegman_hyperdimensional_1990] --- a compact representation of multivariate data that links each dimension on parallel axes by a line.
 
-Figure @fig:GLMVis shows a typical view of `GLMVis`. Each axis is a black horizontal line that corresponds to a dimension of the GLM. Non-parallel lines connect the dimensions and represent a single neuron. The intersection of the axes and non-parallel lines is the computed value of the neuron at that dimension. Dropdown menus allow the user to filter the neurons by their brain area or subject. The user can also filter by effect size by "brushing" along a desired axis --- holding and dragging the mouse to select neurons in the range of values. Multiple axes can be selected in order to investigate the associations between values in different dimensions. <--! you really need to describe the meaning of the dimensions here at some point ('effect size' is not descriptive enough) -->
+Figure @fig:GLMVis shows a typical view of `GLMVis`. Each axis is a black horizontal line that corresponds to a dimension of the GLM. Non-parallel lines connect the dimensions and represent a single neuron. The intersection of the axes and non-parallel lines is the computed value of the neuron at that dimension. Dropdown menus allow the user to filter the neurons by their brain area or subject. The user can also filter by effect size by "brushing" along a desired axis --- holding and dragging the mouse to select neurons in the range of values. Multiple axes can be selected in order to investigate the associations between values in different dimensions. <!-- you really need to describe the meaning of the dimensions here at some point ('effect size' is not descriptive enough) -->
 
-<--! Conclusion paragraph -->
+<!-- Conclusion paragraph -->
 
 ![A static screenshot of the `GLMVis` interface.](figures/GLMVis.png){#fig:GLMVis width=100%}
